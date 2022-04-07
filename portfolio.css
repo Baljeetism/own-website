@@ -1,0 +1,137 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+
+}
+
+.dp {
+    width: 400px;
+    height: 400px;
+    /* border: 4px black solid; */
+
+    border-radius: 15px;
+
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    color: #d3d3d3;
+    /* border-bottom: 5px bisque solid; */
+    /* margin-top: 15px; */
+    /* padding-bottom: 5px; */
+    /* background-color: #fde4cf; */
+    padding: 10px;
+    border-radius: 15px;
+
+
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+
+.first {
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: black;
+    padding: 15px 15px ;
+    border-radius: 15px;
+    border: 3px #d3d3d3 solid;
+}
+.last{
+    background-color: #d3d3d3;
+    padding: 15px 15px ;
+    border-radius: 15px;
+    border: 3px black solid;
+}
+
+span {
+    color: red;
+}
+
+.name {
+    margin-top: 50px;
+     
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1618519764620-7403abdbdfe9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+.name {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0b090a;
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin-top: -7px;
+    border: 4px black solid;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: 360px;
+    width: 360px;
+}
+
+.icons {
+    height: 100px;
+    width: 100px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.introname {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hey {
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    border: 4px black solid;
+
+}
+
+.h {
+    margin-right: -50px;
+}
+
+
+h3 {
+    margin-left: -23px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.hey img:hover{
+   transform: scale(1.1);
+    
+}
+.last img:hover{
+    transform: scale(1.1);
+     
+ }
