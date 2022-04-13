@@ -135,3 +135,41 @@ h1{
     transform: scale(1.1);
      
  }
+@media (max-width: 400px){
+    .content{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+        font-size:10px;
+        margin-right: 50px;
+
+    }
+    .hey{
+        /* width: 60%;
+        height:300px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .dp{
+        width: 95%;
+        height: 300px;
+    }
+    .name{
+        margin-top: 50px;
+        width: 90%;
+        padding: 10px 0px;
+        height: 300px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
