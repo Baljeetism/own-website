@@ -136,7 +136,7 @@ h1{
      
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
     .content{
        
         display: flex;
