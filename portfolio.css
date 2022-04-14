@@ -29,7 +29,8 @@
 
 
 }
-img{
+
+img {
     height: 40px;
     width: 40px;
 }
@@ -39,13 +40,15 @@ img{
     font-weight: bolder;
     font-size: xx-large;
     background-color: black;
-    padding: 15px 15px ;
+    padding: 15px 15px;
     border-radius: 15px;
     border: 3px #d3d3d3 solid;
 }
-.last{
+
+.last {
+
     background-color: #d3d3d3;
-    padding: 15px 15px ;
+    padding: 15px 15px;
     border-radius: 15px;
     border: 3px black solid;
 }
@@ -56,7 +59,7 @@ span {
 
 .name {
     margin-top: 50px;
-     
+
 }
 
 body {
@@ -85,10 +88,11 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .introname {
@@ -121,34 +125,44 @@ body {
 h3 {
     margin-left: -23px;
 }
-h1{
+
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
-.hey img:hover{
-   transform: scale(1.1);
-    
-}
-.last img:hover{
+
+.hey img:hover {
     transform: scale(1.1);
-     
+
 }
 
-@media (max-width: 500px){
-    .content{
-       
+.last img:hover {
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 500px) {
+    .content {
+
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         margin-left: 50px;
-        font-size:10px;
+        font-size: 10px;
         margin-right: 50px;
 
     }
-    .hey{
+
+    .last {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .hey {
         /* width: 60%;
         height:300px; */
         display: flex;
@@ -157,13 +171,18 @@ h1{
         text-align: center;
 
     }
-    .dp{
+
+    .dp {
         width: 95%;
         height: 350px;
         margin-left: 10px;
     }
-    .name{display: none;}
-    nav{
+
+    .name {
+        display: none;
+    }
+
+    nav {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
